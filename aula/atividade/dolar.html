@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src=".//dolar.js"></script>
+    <link rel="stylesheet" href=".//dolar.css">
+    <title>Cotação Dolar</title>
+</head>
+
+<body>
+    <div class="titulo">
+        <h1>Cotação Dolar</h1>
+    </div>
+    <div class="container">
+        <div class="card">
+            <label for="dolar">Dolar</label><br>
+            <input type="number" id="dolar">
+            <button onclick="dolarApi()">Verificar</button>
+            <hr>
+            <label for="real">Real</label><br>
+            <input type="number" id="real" readonly><br>
+            <label for="euro">Euro</label><br>
+            <input type="number" id="euro" readonly><br>
+            <label for="cotacao">Cotação:</label><br>
+            <p id="cotacao"></p>
+        </div>
+    </div>
+</body>
+
+</html>

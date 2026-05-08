@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src=".//script.js" defer></script>
+    <link rel="stylesheet" href=".//style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="titulo">
+        <h1>Verificador de CEP</h1>
+    </div>
+    <div class="container">
+        <div class="card">
+            <label for="cep">Cep</label><br>
+            <input type="text" id="cep">
+            <button onclick="consumindoApi()">Verificar</button>
+            <hr>
+            <label for="rua">Rua</label><br>
+            <input type="text" id="rua" readonly><br>
+            <label for="estado">Estado</label><br>
+            <input type="text" id="estado" readonly><br>
+            <label for="cidade">Cidade</label><br>
+            <input type="text" id="cidade" readonly>
+        </div>
+    </div>
+</body>
+
+</html>

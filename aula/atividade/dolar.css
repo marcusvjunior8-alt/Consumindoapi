@@ -1,0 +1,41 @@
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+body {
+    background-color: #1E293B;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+}
+
+.card {
+    background-color: #F1F5F9;
+    color: black;
+    width: 400px;
+    height: 270px;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+input{
+    border-radius: 20px;
+    margin-left: 10px;
+}
+label{
+    margin-left: 10px;
+}
+button{
+    border-radius: 20px;
+    width: 75px;
+}
+p{
+    margin-left: 10px;
+}
