@@ -1,11 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dados de Paises</title>
+    <script src=".//paises.js" defer></script>
+    <link rel="stylesheet" href=".//paises.css">
+    <title>Api Países</title>
 </head>
+
 <body>
-    
+    <div class="titulo">
+        <h1>API PAÍSES</h1>
+    </div>
+    <div class="container">
+        <div class="card">
+            <label for="nome_pais">Nome do País</label><br>
+            <input type="text" id="nome_pais">
+            <button onclick="pais_API()">Verificar</button>
+            <hr>
+            <label for="capital">Capital: </label>
+            <p id="capital"></p>
+            <label for="populacao">Populacao: </label>
+            <p id="populacao"></p>
+            <label for="moeda">Moeda: </label>
+            <p id="moeda"></p>
+            <label for="idioma">Idioma: </label>
+            <p id="idioma"></p>
+            <label for="fuso_horario">Fuso Horário: </label>
+            <p id="fuso_horario"></p>
+            <label for="bandeira">Bandeira:</label><br>
+            <img src="" id="bandeira">
+        </div>
+    </div>
 </body>
+
 </html>

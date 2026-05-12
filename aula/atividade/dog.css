@@ -4,16 +4,13 @@ h1 {
 }
 
 body {
-    background-color: #1E293B;
     font-family: 'Poppins', sans-serif;
-    color: #FFFFFF;
 }
 
 .card {
-    background-color: #F1F5F9;
     color: black;
-    width: 500px auto;
-    height: auto;
+    width: 500px;
+    height: 400px;
     font-size: 22px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 20px;
@@ -25,21 +22,17 @@ body {
     align-items: center;
     height: 60vh;
 }
-input{
-    border-radius: 20px;
-    margin-left: 10px;
-}
-label{
-    margin-left: 10px;
-}
-button{
+
+button {
     border-radius: 20px;
     width: 75px;
 }
-p{
+
+p {
     margin-left: 10px;
 }
+
 img{
     width: 200px;
-    margin-left: 20px;
+    margin: 100px;
 }
